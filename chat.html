@@ -1,0 +1,539 @@
+<!DOCTYPE HTML>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<link href="css/style.css" rel="stylesheet">
+<link href="css/fonts.css" rel="stylesheet">
+<link href="css/media.css" rel="stylesheet">
+<link rel="icon" href="/favicon.ico" type="image/x-icon">
+<link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+<link href="css/jquery.fancybox.css" rel="stylesheet">
+<link href="css/jquery.jscrollpane.css" rel="stylesheet">
+<link href="css/jquery.formstyler.css" rel="stylesheet">
+
+<title>Chat</title>
+<!--[if IE]><script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script><![endif]-->
+<!--[if lte IE 8]><script src="http://phpbbex.com/oldies/oldies.js" charset="utf-8"></script><![endif]-->
+</head>
+
+<body>
+<div class="wrapper"> 
+  <!--HEADER-->
+   <div id="header">
+   <div class="top-header-form">
+   <div class="container clearfix">
+   <div class="back-to-web"><a href="#" class="ico-web">Back to website</a></div>
+   
+   <div class="logo-form"><a href="#" class="ico-arrows">Telegram</a></div>
+   
+   <div class="download-app-form"><a href="#" class="ico-arrows-2">Download App</a></div>
+   </div>
+   </div>
+   
+
+      
+    
+    </div>
+<!--HEADER END--> 
+
+    
+  <!--CONTENT-BOX-->
+  <div id="content-box" class="content-index">
+
+  <div class="container">
+ <div class="content-index-box clearfix">
+ <div class="content-index-box-header clearfix">
+ <div class="content-index-header-left">
+ <div class="header-menu"><a href="#" class="ico-interface">Menu</a>
+ <ul class="dropdown-menu-list clearfix">
+ <li><a href="#" class="ico-people-1">New Group</a></li>
+ <li><a href="#" class="ico-person-3">Contacts</a></li>
+ <li><a href="#" class="ico-technology-1">Settings</a></li>
+ <li><a href="#" class="ico-shapes">F.A.Q.</a></li>
+ <li><a href="#" class="ico-icon-79685">About Us</a></li>
+ </ul>
+ </div>
+ <div class="header-invite"><a   id="fancybox-overlay" href="#invite" class="ico-person-1">Invite</a>
+    <!--DIV MODAL WIN-->
+                    <div id="invite" class="form-modal" style="z-index:8000; display: none;">
+                      <h2>Invite Friend</h2>
+                   
+                      <div class="callback-form">
+                        <form>
+                        <div class="content-pop-up-fancybox">
+                          <div class="ico-technology">
+  
+   <input type="number" placeholder="Phone number">
+   </div>
+   <!--  <div class="ico-people input-error">
+   <input class="error-input-total" type="number" placeholder="Please enter your username">
+   </div>-->
+   <div class="ico-people">
+  
+   <input type="text" placeholder="First name">
+   </div>
+   <!-- <div class="ico-people input-error">
+   <input class="error-input-total" type="text" placeholder="First name">
+   </div>-->
+   <div class="ico-people">
+  
+   <input type="text" placeholder="Last name">
+   </div>
+   <!-- <div class="ico-people input-error">
+   <input class="error-input-total" type="text" placeholder="Last name">
+   </div>--> </div>
+                           <div class="pop-up-buttons clearfix">
+   <a href="#" class="button grey">Cancel</a>
+    <input type="submit" value="Save" class="button">
+   </div>
+                          
+                         
+                        </form>
+                      </div>
+                    </div>
+                    <!--DIV END MODAL WIN--> 
+ 
+ </div>
+ </div>
+  <div class="content-index-header-right"><a href="#" class="ico-arrow">Logout</a></div>
+ 
+ </div>
+ <div class="leftbar">
+ <div class="leftbar-search ico-search">
+ <input type="search" placeholder="Search">
+ </div>
+ <div class="leftbar-users scroll-pane clearfix">
+ <ul class="leftbar-users-list clearfix">
+ <li class="non-read clearfix"><div class="image-box"><div class="status online"><i class="ico-check"></i></div><img src="images/avatar-users-1.jpg" alt=""></div>
+ <div class="name-and-text">
+ <div class="name">
+ Александр Фролов
+ </div>
+ <div class="message">привет, ты на месте ?</div>
+ </div>
+ <div class="time-and-number">
+ <div class="time">10:35 AM</div>
+ <div class="number">1</div>
+ </div>
+   </li>
+   
+   <li class="clearfix"><div class="image-box"><div class="status online"><i class="ico-check"></i></div><img src="images/avatar-users-2.jpg" alt=""></div>
+ <div class="name-and-text">
+ <div class="name">
+ Марта
+ </div>
+ <div class="message">Как дела?</div>
+ </div>
+ <div class="time-and-number">
+ <div class="time">10:34 AM</div>
+ <div class="number">1</div>
+ </div>
+   </li>
+   
+   <li class="clearfix"><div class="image-box"><div class="status"><i class="ico-check"></i></div><img src="images/avatar-users-3.jpg" alt=""></div>
+ <div class="name-and-text">
+ <div class="name">
+ Олег (програмист)
+ </div>
+ <div class="message">Есть работа ?</div>
+ </div>
+ <div class="time-and-number">
+ <div class="time">8:13 AM</div>
+ <div class="number">1</div>
+ </div>
+   </li>
+   
+    <li class="clearfix"><div class="image-box"><div class="status"><i class="ico-check"></i></div><img src="images/avatar-users-4.jpg" alt=""></div>
+ <div class="name-and-text">
+ <div class="name">
+Олена (партнер)
+ </div>
+ <div class="message"><span>Вы:</span> пошли на пиво</div>
+ </div>
+ <div class="time-and-number">
+ <div class="time">Yesterday</div>
+ <div class="number">1</div>
+ </div>
+   </li>
+   
+   <li class="clearfix"><div class="image-box"><div class="status"><i class="ico-check"></i></div><img src="images/avatar-users-5.jpg" alt=""></div>
+ <div class="name-and-text">
+ <div class="name">
+No name Baby
+ </div>
+ <div class="message">приветик, познако....</div>
+ </div>
+ <div class="time-and-number">
+ <div class="time">18.02.16</div>
+ <div class="number">1</div>
+ </div>
+   </li>
+   
+   <li class="clearfix"><div class="image-box"><div class="status"><i class="ico-check"></i></div><img src="images/avatar-users-6.jpg" alt=""></div>
+ <div class="name-and-text">
+ <div class="name">
+Аня (Копирайтер)
+ </div>
+ <div class="message">Завтра закончу текста.</div>
+ </div>
+ <div class="time-and-number">
+ <div class="time">13.02.16</div>
+ <div class="number">1</div>
+ </div>
+   </li>
+   
+   <li class="clearfix"><div class="image-box"><div class="status"><i class="ico-check"></i></div><img src="images/avatar-users-3.jpg" alt=""></div>
+ <div class="name-and-text">
+ <div class="name">
+ Олег (програмист)
+ </div>
+ <div class="message">Есть работа ?</div>
+ </div>
+ <div class="time-and-number">
+ <div class="time">8:13 AM</div>
+ <div class="number">1</div>
+ </div>
+   </li>
+   <li class="non-read clearfix"><div class="image-box"><div class="status online"><i class="ico-check"></i></div><img src="images/avatar-users-1.jpg" alt=""></div>
+ <div class="name-and-text">
+ <div class="name">
+ Александр Фролов
+ </div>
+ <div class="message">привет, ты на месте ?</div>
+ </div>
+ <div class="time-and-number">
+ <div class="time">10:35 AM</div>
+ <div class="number">1</div>
+ </div>
+   </li>
+   
+   <li class="clearfix"><div class="image-box"><div class="status online"><i class="ico-check"></i></div><img src="images/avatar-users-2.jpg" alt=""></div>
+ <div class="name-and-text">
+ <div class="name">
+ Марта
+ </div>
+ <div class="message">Как дела?</div>
+ </div>
+ <div class="time-and-number">
+ <div class="time">10:34 AM</div>
+ <div class="number">1</div>
+ </div>
+   </li>
+   
+   <li class="clearfix"><div class="image-box"><div class="status"><i class="ico-check"></i></div><img src="images/avatar-users-3.jpg" alt=""></div>
+ <div class="name-and-text">
+ <div class="name">
+ Олег (програмист)
+ </div>
+ <div class="message">Есть работа ?</div>
+ </div>
+ <div class="time-and-number">
+ <div class="time">8:13 AM</div>
+ <div class="number">1</div>
+ </div>
+   </li>
+   
+    <li class="clearfix"><div class="image-box"><div class="status"><i class="ico-check"></i></div><img src="images/avatar-users-4.jpg" alt=""></div>
+ <div class="name-and-text">
+ <div class="name">
+Олена (партнер)
+ </div>
+ <div class="message"><span>Вы:</span> пошли на пиво</div>
+ </div>
+ <div class="time-and-number">
+ <div class="time">Yesterday</div>
+ <div class="number">1</div>
+ </div>
+   </li>
+   
+   <li class="clearfix"><div class="image-box"><div class="status"><i class="ico-check"></i></div><img src="images/avatar-users-5.jpg" alt=""></div>
+ <div class="name-and-text">
+ <div class="name">
+No name Baby
+ </div>
+ <div class="message">приветик, познако....</div>
+ </div>
+ <div class="time-and-number">
+ <div class="time">18.02.16</div>
+ <div class="number">1</div>
+ </div>
+   </li>
+   
+   <li class="clearfix"><div class="image-box"><div class="status"><i class="ico-check"></i></div><img src="images/avatar-users-6.jpg" alt=""></div>
+ <div class="name-and-text">
+ <div class="name">
+Аня (Копирайтер)
+ </div>
+ <div class="message">Завтра закончу текста.</div>
+ </div>
+ <div class="time-and-number">
+ <div class="time">13.02.16</div>
+ <div class="number">1</div>
+ </div>
+   </li>
+   
+   <li class="clearfix"><div class="image-box"><div class="status"><i class="ico-check"></i></div><img src="images/avatar-users-3.jpg" alt=""></div>
+ <div class="name-and-text">
+ <div class="name">
+ Олег (програмист)
+ </div>
+ <div class="message">Есть работа ?</div>
+ </div>
+ <div class="time-and-number">
+ <div class="time">8:13 AM</div>
+ <div class="number">1</div>
+ </div>
+   </li>
+   <li class="non-read clearfix"><div class="image-box"><div class="status online"><i class="ico-check"></i></div><img src="images/avatar-users-1.jpg" alt=""></div>
+ <div class="name-and-text">
+ <div class="name">
+ Александр Фролов
+ </div>
+ <div class="message">привет, ты на месте ?</div>
+ </div>
+ <div class="time-and-number">
+ <div class="time">10:35 AM</div>
+ <div class="number">1</div>
+ </div>
+   </li>
+   
+   <li class="clearfix"><div class="image-box"><div class="status online"><i class="ico-check"></i></div><img src="images/avatar-users-2.jpg" alt=""></div>
+ <div class="name-and-text">
+ <div class="name">
+ Марта
+ </div>
+ <div class="message">Как дела?</div>
+ </div>
+ <div class="time-and-number">
+ <div class="time">10:34 AM</div>
+ <div class="number">1</div>
+ </div>
+   </li>
+   
+   <li class="clearfix"><div class="image-box"><div class="status"><i class="ico-check"></i></div><img src="images/avatar-users-3.jpg" alt=""></div>
+ <div class="name-and-text">
+ <div class="name">
+ Олег (програмист)
+ </div>
+ <div class="message">Есть работа ?</div>
+ </div>
+ <div class="time-and-number">
+ <div class="time">8:13 AM</div>
+ <div class="number">1</div>
+ </div>
+   </li>
+   
+    <li class="clearfix"><div class="image-box"><div class="status"><i class="ico-check"></i></div><img src="images/avatar-users-4.jpg" alt=""></div>
+ <div class="name-and-text">
+ <div class="name">
+Олена (партнер)
+ </div>
+ <div class="message"><span>Вы:</span> пошли на пиво</div>
+ </div>
+ <div class="time-and-number">
+ <div class="time">Yesterday</div>
+ <div class="number">1</div>
+ </div>
+   </li>
+   
+   <li class="clearfix"><div class="image-box"><div class="status"><i class="ico-check"></i></div><img src="images/avatar-users-5.jpg" alt=""></div>
+ <div class="name-and-text">
+ <div class="name">
+No name Baby
+ </div>
+ <div class="message">приветик, познако....</div>
+ </div>
+ <div class="time-and-number">
+ <div class="time">18.02.16</div>
+ <div class="number">1</div>
+ </div>
+   </li>
+   
+   <li class="clearfix"><div class="image-box"><div class="status"><i class="ico-check"></i></div><img src="images/avatar-users-6.jpg" alt=""></div>
+ <div class="name-and-text">
+ <div class="name">
+Аня (Копирайтер)
+ </div>
+ <div class="message">Завтра закончу текста.</div>
+ </div>
+ <div class="time-and-number">
+ <div class="time">13.02.16</div>
+ <div class="number">1</div>
+ </div>
+   </li>
+   
+   <li class="clearfix"><div class="image-box"><div class="status"><i class="ico-check"></i></div><img src="images/avatar-users-3.jpg" alt=""></div>
+ <div class="name-and-text">
+ <div class="name">
+ Олег (програмист)
+ </div>
+ <div class="message">Есть работа ?</div>
+ </div>
+ <div class="time-and-number">
+ <div class="time">8:13 AM</div>
+ <div class="number">1</div>
+ </div>
+   </li>
+ </ul>
+ 
+ </div>
+ 
+ </div>
+ 
+ <div class="chat-box">
+ <div class="chat-box-header">
+ 
+ <div class="chat-box-header-box clearfix">
+ 
+ <div class="chat-box-header-info">  <!--OR CLASS online-->
+ <i class="ico-person-3"></i><a href="#" class="name-user">Марта</a>
+ <span>- Last viewed at 12:00 AM</span>
+<!-- <span>- Online</span>-->
+ </div>
+ 
+ <div class="chat-box-header-buttons">
+ <a href="#" class="edit">Edit</a>
+  <a href="#" class="media">Media</a>
+ </div>
+ </div>
+ 
+ </div>
+ 
+ <div class="chat-box-block">
+ <form>
+ <div class="chat-box-block-total scroll-pane">
+ <ul class="chat-messages-list clearfix">
+ <li class="interlocutor clearfix">
+<div class=" for-chackbox active clearfix">
+<input class="checkbox"  type="checkbox"   />
+ <div class="avatar-box"><img src="images/avatar-users-2.jpg" alt=""></div>
+ <div class="inline">
+ <div class="text-box">Как дела?</div>
+   <div class="message-time">10:21 AM</div>
+</div>
+</div>
+<div class=" for-chackbox active clearfix">
+<input  class="checkbox"  type="checkbox"  value="1"   />
+<div class="inline second">
+<div class="text-box">Встретимся завтра ?</div>
+  <div class="message-time">10:21 AM</div>
+</div>
+</div>
+ </li>
+  <li class="me clearfix">
+  <div class="for-chackbox active clearfix">
+  <input  class="checkbox"  type="checkbox"  value="1"   />
+   <div class="message-time">10:22 AM</div>
+  <div class="right">
+ <div class="avatar-box"><img src="images/avatar-users-7.jpg" alt=""></div>
+ <div class="text-box">Привет, хорошо, ты как ?</div>
+ </div>
+ </div>
+
+ </li>
+ 
+ <li class="interlocutor clearfix">
+<div class=" for-chackbox clearfix">
+<input  class="checkbox"  type="checkbox"  value="1"   />
+ <div class="avatar-box"><img src="images/avatar-users-2.jpg" alt=""></div>
+ <div class="text-box">Отлично, вот только что зашла домой. Чем занимался ?</div>
+
+ <div class="message-time">10:25 AM</div>
+ </div>
+ </li>
+ 
+ <li class="me clearfix">
+ <div class=" for-chackbox clearfix">
+ <input  class="checkbox"  type="checkbox"  value="1"   />
+ <div class="clearfix">
+    <div class="message-time">10:30 AM</div>
+  <div class="right">
+ <div class="avatar-box"><img src="images/avatar-users-7.jpg" alt=""></div>
+ <div class="text-box">Молодец! =) Тоже недавно пришел домой, встречался с клиентами. Взял новый проект.?</div>
+ </div>
+ 
+ </div>
+ </div>
+ <div class=" for-chackbox clearfix">
+ <input  class="checkbox"  type="checkbox"  value="1"   />
+ <div class="clearfix">
+<div class="message-time">10:30 AM</div>
+  <div class="right second">
+ <div class="text-box second">Встретимся завтра ?</div>
+</div>
+</div>
+</div>
+<div class=" for-chackbox clearfix">
+ <input  class="checkbox"  type="checkbox"  value="1"   />
+ <div class="clearfix">
+<div class="message-time">10:30 AM</div>
+  <div class="right second">
+<div class="text-box photo second"><a href="images/img-for-chat.jpg"><img src="images/img-for-chat.jpg" alt=""></a></div>
+</div>
+</div>
+</div>
+ </li>
+ <li class="interlocutor clearfix">
+ <div class=" for-chackbox clearfix">
+<input  class="checkbox"  type="checkbox"  value="1"   />
+ <div class="avatar-box"><img src="images/avatar-users-2.jpg" alt=""></div>
+ <div class="inline">
+ <div class="text-box">Конечно, буду рада увидиться!</div>
+   <div class="message-time">10:34 AM</div>
+   </div>
+</div>
+
+
+ </li>
+ <li class="writing">
+ <i class="ico-tool-1"></i><a href="#">Марта</a><span>Печатает</span>
+ </li>
+ </ul>
+ 
+ </div>
+ 
+ <div class="chat-bottom-box chat-edit">
+<div class="line-bottom"></div>
+ 
+<div class="clearfix">
+
+<ul class="chat-bottom-buttons clearfix">
+<li><a href="#" class="button delete">Delete <i>2</i></a></li>
+<li><a href="#" class="button forward">Forward <i>2</i></a></li>
+</ul>
+
+
+<div class="submit-box ico-cross">
+<input type="submit" value="Cancel">
+</div>
+</div>
+
+ </div>
+ </form>
+ </div>
+ 
+ </div>
+ 
+ 
+ 
+ 
+ </div>
+  </div>
+  
+  </div>
+  <!--CONTENT-BOX END-->
+  
+
+</div>
+
+
+
+<script src="js/jquery-1.10.2.min.js"></script> 
+<script src="js/jquery.fancybox.pack.js"></script> 
+<script src="js/jquery.mousewheel.js"></script> 
+<script src="js/jquery.jscrollpane.js"></script> 
+<script src="js/jquery.formstyler.min.js"></script> 
+<script src="js/components.js"></script>
+<script src="js/SmoothScroll.js"></script> 
+<script src="js/scripts.js"></script>
+</body></html>

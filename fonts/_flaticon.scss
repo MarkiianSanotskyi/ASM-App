@@ -1,0 +1,119 @@
+    /*
+    Flaticon icon font: Flaticon
+    Creation date: 03/03/2016 15:47
+    */
+
+    @font-face {
+  font-family: "Flaticon";
+  src: url("./Flaticon.eot");
+  src: url("./Flaticon.eot?#iefix") format("embedded-opentype"),
+       url("./Flaticon.woff") format("woff"),
+       url("./Flaticon.ttf") format("truetype"),
+       url("./Flaticon.svg#Flaticon") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@media screen and (-webkit-min-device-pixel-ratio:0) {
+  @font-face {
+    font-family: "Flaticon";
+    src: url("./Flaticon.svg#Flaticon") format("svg");
+  }
+}
+
+    .fi:before{
+        display: inline-block;
+  font-family: "Flaticon";
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  line-height: 1;
+  text-decoration: inherit;
+  text-rendering: optimizeLegibility;
+  text-transform: none;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-font-smoothing: antialiased;
+  font-smoothing: antialiased;
+    }
+
+    .flaticon-arrow:before { content: "\f100"; }
+.flaticon-arrows:before { content: "\f101"; }
+.flaticon-arrows-1:before { content: "\f102"; }
+.flaticon-arrows-2:before { content: "\f103"; }
+.flaticon-bell:before { content: "\f104"; }
+.flaticon-black:before { content: "\f105"; }
+.flaticon-check:before { content: "\f106"; }
+.flaticon-clock:before { content: "\f107"; }
+.flaticon-computer:before { content: "\f108"; }
+.flaticon-cross:before { content: "\f109"; }
+.flaticon-delete:before { content: "\f10a"; }
+.flaticon-direction:before { content: "\f10b"; }
+.flaticon-globe:before { content: "\f10c"; }
+.flaticon-icon-15934:before { content: "\f10d"; }
+.flaticon-icon-17252:before { content: "\f10e"; }
+.flaticon-icon-79685:before { content: "\f10f"; }
+.flaticon-interface:before { content: "\f110"; }
+.flaticon-interface-1:before { content: "\f111"; }
+.flaticon-key:before { content: "\f112"; }
+.flaticon-people:before { content: "\f113"; }
+.flaticon-people-1:before { content: "\f114"; }
+.flaticon-person:before { content: "\f115"; }
+.flaticon-person-1:before { content: "\f116"; }
+.flaticon-person-2:before { content: "\f117"; }
+.flaticon-person-3:before { content: "\f118"; }
+.flaticon-search:before { content: "\f119"; }
+.flaticon-shapes:before { content: "\f11a"; }
+.flaticon-sheet:before { content: "\f11b"; }
+.flaticon-sign:before { content: "\f11c"; }
+.flaticon-signs:before { content: "\f11d"; }
+.flaticon-smile:before { content: "\f11e"; }
+.flaticon-social:before { content: "\f11f"; }
+.flaticon-symbols:before { content: "\f120"; }
+.flaticon-technology:before { content: "\f121"; }
+.flaticon-technology-1:before { content: "\f122"; }
+.flaticon-technology-2:before { content: "\f123"; }
+.flaticon-time:before { content: "\f124"; }
+.flaticon-tool:before { content: "\f125"; }
+.flaticon-tool-1:before { content: "\f126"; }
+.flaticon-web:before { content: "\f127"; }
+    
+    $font-Flaticon-arrow: "\f100";
+    $font-Flaticon-arrows: "\f101";
+    $font-Flaticon-arrows-1: "\f102";
+    $font-Flaticon-arrows-2: "\f103";
+    $font-Flaticon-bell: "\f104";
+    $font-Flaticon-black: "\f105";
+    $font-Flaticon-check: "\f106";
+    $font-Flaticon-clock: "\f107";
+    $font-Flaticon-computer: "\f108";
+    $font-Flaticon-cross: "\f109";
+    $font-Flaticon-delete: "\f10a";
+    $font-Flaticon-direction: "\f10b";
+    $font-Flaticon-globe: "\f10c";
+    $font-Flaticon-icon-15934: "\f10d";
+    $font-Flaticon-icon-17252: "\f10e";
+    $font-Flaticon-icon-79685: "\f10f";
+    $font-Flaticon-interface: "\f110";
+    $font-Flaticon-interface-1: "\f111";
+    $font-Flaticon-key: "\f112";
+    $font-Flaticon-people: "\f113";
+    $font-Flaticon-people-1: "\f114";
+    $font-Flaticon-person: "\f115";
+    $font-Flaticon-person-1: "\f116";
+    $font-Flaticon-person-2: "\f117";
+    $font-Flaticon-person-3: "\f118";
+    $font-Flaticon-search: "\f119";
+    $font-Flaticon-shapes: "\f11a";
+    $font-Flaticon-sheet: "\f11b";
+    $font-Flaticon-sign: "\f11c";
+    $font-Flaticon-signs: "\f11d";
+    $font-Flaticon-smile: "\f11e";
+    $font-Flaticon-social: "\f11f";
+    $font-Flaticon-symbols: "\f120";
+    $font-Flaticon-technology: "\f121";
+    $font-Flaticon-technology-1: "\f122";
+    $font-Flaticon-technology-2: "\f123";
+    $font-Flaticon-time: "\f124";
+    $font-Flaticon-tool: "\f125";
+    $font-Flaticon-tool-1: "\f126";
+    $font-Flaticon-web: "\f127";

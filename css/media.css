@@ -1,0 +1,15 @@
+
+	
+	@media (min-width: 1200px) and (min-height: 780px){
+	
+		}
+		
+		
+		@media only screen and (max-width: 991px) and (min-width: 768px){
+			html, body{background-size:auto;}
+			}
+			
+			
+			@media only screen and (max-width: 767px) and (min-width: 319px){
+				html, body{background-size:auto;}
+				}
